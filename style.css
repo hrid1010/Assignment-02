@@ -10,3 +10,10 @@
 body{
     font-family: "Quicksand", serif;
 }
+
+
+.button-1{
+    border-radius: 90px;
+    padding: 0px 20px;
+    background-color: #FE8C45;
+}
