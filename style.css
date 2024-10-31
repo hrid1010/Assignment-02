@@ -1,48 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Quicksand", serif;
-    margin: 0px 1rem;
+body {
+  font-family: "Quicksand", serif;
+  margin: 0px 1rem;
 }
 
-
-.button-1{
-    border-radius: 90px;
-    padding: 5px 25px;
-    background-color: #FE8C45;
+.button-1 {
+  border-radius: 90px;
+  padding: 5px 25px;
+  background-color: #fe8c45;
 }
 
-.span-1{
-    color: #8A47F6;
+.span-1 {
+  color: #8a47f6;
 }
 
-.span-2{
-    background-color: #8A47F6;
-    height: 25px;
-    width: 241.18px;
-    border-radius: 90px;
-    padding: 0px 60px;
-    font-size: 10px;
-    
+.span-2 {
+  background-color: #8a47f6;
+  height: 25px;
+  width: 241.18px;
+  border-radius: 90px;
+  padding: 0px 60px;
+  font-size: 10px;
 }
 
-.button-2{
-    border-radius: 90px;
-    padding: 5px 110px 5px 60px;
-    background-color: #FE8C45;
-    color: white;
-
+.button-2 {
+  border-radius: 90px;
+  padding: 5px 110px 5px 60px;
+  background-color: #fe8c45;
+  color: white;
 }
 
-.port-f-1{
-    background-color: #ded9e7;
-    /* padding: 100px 0px 30px 110px; */
-    
+.port-f-1 {
+  background-color: #ded9e7;
+  /* padding: 100px 0px 30px 110px; */
+}
+
+.port-f-2 {
+  .text {
+    text-align: center;
+  }
+}
+
+.tabs {
+  border: 1px solid white;
+  border-radius: 8px;
+  box-shadow: 0 0 0.5rem;
 }
