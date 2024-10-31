@@ -14,47 +14,59 @@
   </head>
   <body>
     <!-- this is Nav-bar start -->
-    <section class="row mt-4 m-2">
-      <div class="justify-content-center align-content-center col-6">
-        <img
-          style="width: 213px; height: 39px"
-          src="img-others/logoKiekeFotografie-e1460817748238 1.png"
-          alt="logo-KiekeFotografie"
-        />
+    <div class="nav-bar-section container">
+      <div class="row mt-4 mb-3">
+        <div class="justify-content-center align-content-center col-6">
+          <img
+            style="width: 213px; height: 39px"
+            src="img-others/logoKiekeFotografie-e1460817748238 1.png"
+            alt="logo-KiekeFotografie"
+          />
+        </div>
+        <div class="nav justify-content-center col-lg-6">
+          <a class="nav-link text-dark" href="#">Home</a>
+          <a class="nav-link text-dark" href="#">About Us</a>
+          <a class="nav-link text-dark" href="#">Portfolio</a>
+          <a class="nav-link text-dark" href="#">Prices</a>
+          <a class="nav-link text-dark" href="#">Connect Us</a>
+          <button class="btn button-1 text-light btn-outline-secondary">
+            Get Started
+          </button>
+        </div>
       </div>
-      <div class="nav justify-content-center col-lg-6">
-        <a class="nav-link text-dark" href="#">Home</a>
-        <a class="nav-link text-dark" href="#">About Us</a>
-        <a class="nav-link text-dark" href="#">Portfolio</a>
-        <a class="nav-link text-dark" href="#">Prices</a>
-        <a class="nav-link text-dark" href="#">Connect Us</a>
-        <button class="btn button-1 text-light btn-outline-secondary">
-          Get Started
-        </button>
-      </div>
-    </section>
+    </div>
     <!-- this is Nav-bar end -->
 
     <!-- this is First-Step start -->
-    <div class="first-step row">
-      <div class="col-6 align-content-center">
-        <p class="h1" style="font-weight: 700">
-          CAPTURING <br />
-          MOMENTS <span class="span-1">IN</span> <br />
-          TIME
-          <span class="span-1 span-2 ms-4">--</span>
-        </p>
-        <p>A Glimpse into the Past, a Snapshot of the Present.</p>
-        <button class="btn btn-outline-secondary button-2">Get Started</button>
-      </div>
+    <div class="first-step container">
+      <div class="row">
+        <div class="col-6 align-content-center">
+          <p class="h1" style="font-weight: 700">
+            CAPTURING <br />
+            MOMENTS <span class="span-1">IN</span> <br />
+            TIME
+            <span class="span-1 span-2 ms-4">--</span>
+          </p>
+          <p>A Glimpse into the Past, a Snapshot of the Present.</p>
+          <button class="btn btn-outline-secondary button-2">
+            Get Started
+          </button>
+        </div>
 
-      <div class="carousel slide col-6" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="2000">
-            <img src="img-others/Rectangle 32.png" class="d-block img-fluid" />
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="img-others/Rectangle 32.png" class="d-block img-fluid" />
+        <div class="carousel slide col-6" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img
+                src="img-others/Rectangle 32.png"
+                class="d-block img-fluid"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="img-others/Rectangle 32.png"
+                class="d-block img-fluid"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -62,7 +74,7 @@
     <!-- this is First-Step end -->
 
     <!-- this is Portfolio-Term start -->
-    <div class="port-f-1 mt-5 pt-5 ps-5 pb-3 pe-4 rounded">
+    <div class="port-f-1 mt-5 pt-5 ps-5 pb-3 pe-4 rounded container">
       <div class="row">
         <div class="col-lg-6">
           <img src="img-others/Group 11.png" class="img-fluid" />
@@ -94,11 +106,11 @@
       </div>
     </div>
 
-    <div class="port-f-2 mt-5 ms-5 me-5 container ms-auto me-auto ">
+    <div class="port-f-2 mt-5 ms-5 me-5 container ms-auto me-auto">
       <div class="fs-3 fw-bold" style="text-align: center">
         <p>Our Portfolio</p>
       </div>
-      <div class="tabs mb-4 p-2">
+      <div class="shadow-sm mb-4 p-2">
         <ul class="nav nav-underline justify-content-center gap-5">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">All</a>
@@ -212,7 +224,9 @@
     <!-- this is Portfolio-Term end -->
 
     <!-- this is Price-Section start -->
-    <div class="price-section d-flex justify-content-center mt-5 mt-5 pb-5">
+    <div
+      class="price-section d-flex justify-content-center mt-5 mt-5 pt-5 pb-5"
+    >
       <div>
         <div class="h2 fw-bolder mb-5 text-center">Price</div>
         <div class="d-flex column-gap-4">
@@ -245,17 +259,14 @@
             style="width: 20rem"
           >
             <div class="card-body mt-2">
-              <h5 class="card-title fw-bold">
-                Lifestyle Photography
-              </h5>
+              <h5 class="card-title fw-bold">Lifestyle Photography</h5>
               <h6 class="card-subtitle mt-4 text-body-light">
-                Lifestyle photography takes place at your home in a relaxed setting. The price for this depends on how long we take. Inquire about the possibilities.
+                Lifestyle photography takes place at your home in a relaxed
+                setting. The price for this depends on how long we take. Inquire
+                about the possibilities.
               </h6>
               <p class="card-text h2 fw-bold pt-3 mb-3">€50.00</p>
-              <a
-                href="#"
-                type="button"
-                class="card-link btn button-1 bg-light"
+              <a href="#" type="button" class="card-link btn button-1 bg-light"
                 >Get Purchuse</a
               >
             </div>
@@ -266,9 +277,7 @@
             style="width: 20rem"
           >
             <div class="card-body mt-3">
-              <h5 class="card-title fw-bold">
-                Potrait Photography
-              </h5>
+              <h5 class="card-title fw-bold">Potrait Photography</h5>
               <h6 class="card-subtitle mt-5 text-body-secondary">
                 Portrait photography and girlfriend shoots are also possible.
               </h6>
@@ -286,6 +295,38 @@
     </div>
     <!-- this is Price-Section end -->
 
+    <!-- this is Testimonial-Section start -->
+    <div class="testimonial-section container rounded-2">
+      <div class="row">
+        <div class="col-lg-6 mt-sm-5 pe-lg-5">
+          <p>
+            <span>-</span>
+            Testimonial
+          </p>
+          <p class="h2" style="font-weight: 700">What Our Clients Say</p>
+          <p>
+            This photography website is a true gem for anyone who appreciates
+            artistry and storytelling through the lens. The images are
+            awe-inspiring, and the website provides an engaging and immersive
+            experience. With a few minor enhancements in user-friendliness and
+            performance, it could become an even more exceptional platform for
+            showcasing photography talent.
+          </p>
+          <div class="">
+            <span class="bg-secondary pt-2 pb-2 rounded-5 bg-opacity-25">
+              <span class="">
+                <img src="img-others/Ellipse 1.png" alt="" class="img-fluid" />
+              </span>
+              <span class="text-center pe-4 ps-3">Amane Indahnya</span>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="img-others/Rectangle 24.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!-- this is Testimonial-Section end -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

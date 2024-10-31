@@ -48,9 +48,7 @@ body {
   }
 }
 
-.tabs {
-  border: 1px solid white;
-  border-radius: 8px;
-  box-shadow: 0 0 0.5rem;
+.testimonial-section{
+  background-color: #eae6ef;
+  padding: 70px 90px;
 }
-
